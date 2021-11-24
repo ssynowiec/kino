@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <!-- Primary Meta Tags -->
+    <title>Nasze kino - kino najbliżej ciebie</title>
+    <meta name="title" content="Nasze kino - kino najbliżej ciebie">
+    <meta name="description" content="Najlepsze wrażenia z najlepszych filmów">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://naszekino.pl/">
+    <meta property="og:title" content="Nasze kino - kino najbliżej ciebie">
+    <meta property="og:description" content="Najlepsze wrażenia z najlepszych filmów">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://naszekino.pl/">
+    <meta property="twitter:title" content="Nasze kino - kino najbliżej ciebie">
+    <meta property="twitter:description" content="Najlepsze wrażenia z najlepszych filmów">
+    <meta property="twitter:image" content="">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-container" id="nav-container">
+                <div class="fixed">
+                    <a href="./" class="logo">
+                        <img src=" ./img/popcorn-logo.png" alt="popcorn logo kina" class="logo-img">
+                        <p class="logo-text">Nasze <span>kino</span></p>
+                    </a>
+                    <button class="burger-menu" aria-label="burger-menu" id="burger-menu"><img
+                            src="./img/icons/menu.svg" class="burger-icon" alt=""></button>
+                </div>
+                <div class="navbar" id="navbar">
+                    <a href="repertuar.php" class="nav-link">Repertuar</a>
+                    <a href="#" class="nav-link">Kontakt</a>
+                    <a href="./login.php" class="nav-link">Mój bilet</a>
+                    <a href="./buy-ticket.php" class="btn-buy">
+                        <img src="./img/icons/tickets.png" alt="tickets icon" class="icon">
+                        Kup bilet
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="hero">
+            <div class="container">
+                <h1 class="hero-title">Kino najbliżej ciebie!</h1>
+                <p class="hero-text">Najlepsze wrażenia z najlepszych filmów</p>
+                <a href="repertuar.php" class="btn">Sprawdź repertuar</a>
+                <div class="next-section">
+                    <p class="incentive">Poznaj moc filmowych emocji</p>
+                    <a href="#today" aria-label="next section">
+                        <img src="./img/icons/arrow-down.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="today" id="today">
+            <div class="container">
+                <h2 class="section-title">Dzisiaj gramy:</h2>
+                <!-- TODO Dzisiaj gramy: -->
+                <div class="films-wrapper">
+                    <div class="film">
+                        <img src="./img/plakaty/diuna.jpg" alt="diuna plakat" class="poster">
+                        <div class="screening-hour">
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                        </div>
+                    </div>
+                    <div class="film">
+                        <img src="./img/plakaty/eternals.jpg" alt="Eternals plakat" class="poster">
+                        <div class="screening-hour">
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                        </div>
+                    </div>
+                    <div class="film">
+                        <img src="./img/plakaty/spencer.jpg" alt="spencer plakat" class="poster">
+                        <div class="screening-hour">
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                            <p><a href="./buy-ticket.php?film=" title="Kup bilet na tą godzinę">18<sup>15</sup></a></p>
+                        </div>
+                    </div>
+                </div>
+                <a href="repertuar.php" class="btn" title="Zobacz pełny repertuar">Zobacz więcej</a>
+            </div>
+        </section>
+        <section class="premieres" id="premieres">
+            <div class="container">
+                <h2 class="section-title">Nadchodzące premiery:</h2>
+                <!-- TODO Premiery: -->
+                <div class="new">
+                    <img src="./img/plakaty/eternals.jpg" alt="Eternals plakat" class="premiere-poster">
+                    <div class="premiere-description">
+                        <h3 class="premiere-title">Eternals</h3>
+                        <p class="premiere-date">5.11.2021</p>
+                        <p>Producent: <span class="bold">Marvel Studio</span></p>
+                        <p>Czas trwania: <span class="bold">1:54</span></p>
+                        <p>Opis: <span class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+                                aspernatur quas culpa
+                                voluptates error officia reiciendis! Debitis vero omnis quasi, accusamus aut quae labore
+                                dolore molestiae quo placeat ab distinctio id minus adipisci laborum ea optio nesciunt
+                                ullam
+                                enim eum est odio laudantium soluta. Quis excepturi, doloribus, quaerat voluptate
+                                perspiciatis mollitia dicta eos ullam quia aspernatur ratione? Odit ipsam deserunt quae
+                                asperiores quibusdam enim deleniti saepe maxime nulla, eum iure aspernatur. Quis laborum
+                                eligendi qui cum delectus tempora, nisi vero sed placeat tempore iste aspernatur harum
+                                ipsa
+                                a pariatur dolor reprehenderit eos vel dicta.</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <div class="about footer-section">
+                    <h3 class="footer-title">O nas</h3>
+                    <div class="footer-content">
+                        <h3>NaszeKino.pl</h3>
+                        <p>Jesteśmy nową, rozwijającą się firmą zapewniamy najlepsze wrażenia z oglądania waszych
+                            ulubionych
+                            filmów na dużym ekranie</p>
+                    </div>
+                </div>
+                <div class="links footer-section">
+                    <h3 class="footer-title">Przydatne linki</h3>
+                    <div class="footer-content">
+                        <a href="#" class="footer-link">Regulamin</a>
+                        <a href="./login.php" class="footer-link">Mój bilet</a>
+                        <a href="#" class="footer-link">Repertuar</a>
+                        <a href="#" class="footer-link">Promocje</a>
+                        <a href="#" class="footer-link">Kontakt</a>
+                    </div>
+                </div>
+                <div class="address footer-section">
+                    <h3 class="footer-title">Adres</h3>
+                    <div class="footer-content">
+                        <p>NaszeKino.pl</p>
+                        <p>ul. Warszawska 58</p>
+                        <p>60-001 Poznań</p>
+                    </div>
+                </div>
+                <div class="contact footer-section">
+                    <h3 class="footer-title">Kontakt</h3>
+                    <div class="footer-content">
+                        <p><a href="tel:+48123456789" class="footer-link">+48 123 456 789</a></p>
+                        <p><a href="mailto:mail@example.pl" class="footer-link">mail@example.pl</a></p>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">Wszelkie prawa zastrzeżone - Stanisław Synowiec &copy;
+                <!--TODO <?php echo date('Y') ?>-->
+                2021
+            </p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
